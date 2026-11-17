@@ -3,12 +3,12 @@
 # Баннер для /start: путь к локальному файлу, URL или file_id.
 WELCOME_PHOTO = "assets/banner.jpg"
 
-CHANNEL_LINK = "https://t.me/your_channel"          # ваш ТГК
-WILDCLIENT_URL = "https://example.com/wildclient"   # страница покупки WildClient
+CHANNEL_LINK = "https://t.me/pumpkinclient"          # ваш ТГК
+WILDCLIENT_URL = "https://wildclient.org/?ref=pumpkin"   # страница покупки WildClient
 
 # Подпись к баннеру (лимит Telegram для подписи к фото — 1024 символа)
 WELCOME_TEXT = (
-    "💜 <b>Добро пожаловать в WildClient Hub</b> 👑\n\n"
+    "💜 <b>Добро пожаловать в Pumpkin Hub</b> 👑\n\n"
     "<blockquote>🔮 Эксклюзивные файлы, конфиги и обновления — "
     "<i>только для своих</i>.</blockquote>\n\n"
     "✨ Перейдите по реферальной ссылке — и файл придёт <b>мгновенно</b>.\n"
@@ -25,7 +25,7 @@ BTN_CHECK = "✅ Я подписался"
 
 # Всплывающее окно «О боте» (callback.answer — максимум 200 символов!)
 ABOUT_ALERT = (
-    "💜 WildClient Hub\n"
+    "💜 pumpkin Hub\n"
     "Бот выдаёт эксклюзивные файлы по реферальным ссылкам.\n"
     "👑 Подпишитесь на канал и получите файл за пару секунд ✨"
 )
